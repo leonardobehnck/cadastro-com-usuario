@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(white, lightgray);
+    height: 98vh;
+    margin-top: 50px;
+}
+
+p {
+    margin:5px 0;
+}
+
+span {
+    display: block;
+}
+
+#form {
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.050);
+    box-shadow: 5px 15px 25px 5px rgba(0, 0, 0, 0.050);
+}
+
+#dados, #users {
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.050);
+    box-shadow: 5px 15px 25px 5px rgba(0, 0, 0, 0.050);
+}
+
+
+
+#error-message {
+    color: red;
+    margin: 10px;
+}
