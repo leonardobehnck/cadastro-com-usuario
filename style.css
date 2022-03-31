@@ -7,11 +7,17 @@ body {
 
 p {
     margin:5px 0;
+    font-size: 0.9em;
 }
 
 span {
     display: block;
 }
+
+input {    
+        padding: 1px 2px;
+}
+
 
 #form {
     width: 400px;
@@ -22,7 +28,7 @@ span {
     box-shadow: 5px 15px 25px 5px rgba(0, 0, 0, 0.050);
 }
 
-#dados, #users {
+#data, #users {
     width: 400px;
     padding: 20px;
     margin: auto;
@@ -32,8 +38,17 @@ span {
 }
 
 
-
 #error-message {
     color: red;
     margin: 10px;
+}
+
+#saved-name span:hover, #saved-name button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#saved-name button, #showUsers button, #form button {
+    display: inline;
+    cursor: pointer;
 }
