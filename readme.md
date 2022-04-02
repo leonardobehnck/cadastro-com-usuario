@@ -11,9 +11,11 @@
 
 ## :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: 
-- `Funcionalidade 2`: 
-- `Funcionalidade 3`: 
-- `Funcionalidade 4`: 
+- `Funcionalidade 1`: Cadastro usuário com dados iniciais;
+- `Funcionalidade 2`: Mostra na tela o nome do usuário cadastrado;
+- `Funcionalidade 3`: Se clicar no nome, mostra os dados cadastrados;
+- `Funcionalidade 4`: Se clicar para remover, deleta o cadastro realizado;
+- `Funcionalidade 5`: Permite edição do usuário cadastrado na tela de exibição;
+- `Funcionalidade 6`: Teste se o usuário digitou todos os campos;
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
