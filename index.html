@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=z, initial-scale=1.0">
-    <title>Aplicação básica</title>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=z, initial-scale=1.0">
+  <title>Aplicação básica</title>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="form">
-        <h2>Cadastro</h2>
-        <p>Nome:</p><input type="text" id="name" placeholder="Nome">
-        <p>E-mail:</p><input type="text" id="email" placeholder="E-mail">
-        <p>Endereço:</p><input type="text" id="address" placeholder="Endereço">
-        <p>WhatsApp:</p><input type="text" id="whatsapp" placeholder="Whatsapp">
-        <div id="error-message"></div>
-        <button onclick="save()">Salvar</button> 
-        <button onclick="erase()">Limpar</button>
-    </div>    
-    <div id="data">
-        <h2>Banco de dados</h2>
-        <p>Clique no "menos" para remover.</p>
-        <p>Clique no nome para exibir os dados cadastrados.</p>
-            <span id="saved-name" >-</span>
+  <div id="form">
+    <h2>Cadastro</h2>
+    <p>Nome:</p><input type="text" id="name" placeholder="Nome">
+    <p>E-mail:</p><input type="text" id="email" placeholder="E-mail">
+    <p>Endereço:</p><input type="text" id="address" placeholder="Endereço">
+    <p>WhatsApp:</p><input type="text" id="whatsapp" placeholder="Whatsapp">
+    <div id="error-message"></div>
+    <button onclick="save()">Salvar</button>
+    <button onclick="erase()">Limpar</button>
+  </div>
+  <div id="data">
+    <h2>Banco de dados</h2>
+    <p>Clique no "menos" para remover.</p>
+    <p>Clique no nome para exibir os dados cadastrados.</p>
+    <span id="saved-name">-</span>
+  </div>
+  <div id="users">
+    <h2>Exibir usuário</h2>
+    <div id="showUsers">
+      <span id="show-name">-</span>
+      <span id="show-email">-</span>
+      <span id="show-address">-</span>
+      <span id="show-whatsapp">-</span>
+      <button onclick="edit()" id="idEdit" style="display:none">Editar</button>
+      <button onclick="eraseData()" id="eraseData" style="display:none">Limpar</button>
     </div>
-    <div id="users">
-        <h2>Exibir usuário</h2>
-        <div id="showUsers">
-            <span id="show-name">-</span>
-            <span id="show-email">-</span>
-            <span id="show-address">-</span>
-            <span id="show-whatsapp">-</span>
-            <button onclick="edit()" id="idEdit" style="display:none">Editar</button>
-            <button onclick="eraseData()" id="eraseData" style="display:none">Limpar</button>
-        </div>
-    </div>
+  </div>
 </body>
 </html>
